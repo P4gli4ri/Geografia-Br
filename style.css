@@ -18,6 +18,20 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+.texto {
+    text-align: center;
+    flex-grow: 1; 
 }
 
 header h1 {
